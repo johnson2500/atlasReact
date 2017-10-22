@@ -1,0 +1,7 @@
+.header-container{
+  position: absolute;
+  top: 0;
+  background: darkgreen;
+  width: 100vw;
+  height: 10vh;
+}

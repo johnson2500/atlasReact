@@ -1,0 +1,10 @@
+.nav-item{
+}
+
+.footer-container{
+  position: absolute;
+  bottom:0;
+  background: darkgreen;
+  width: 100vw;
+  height: 10vh;
+}
