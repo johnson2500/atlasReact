@@ -1,7 +1,14 @@
+.header-search-bar{
+  border-radius: 10px;
+  border:1px solid darkgrey;
+  text-align: center;
+}
+
 .header-container{
-  position: absolute;
-  top: 0;
   background: darkgreen;
-  width: 100vw;
-  height: 10vh;
+  height: 6vh;
+}
+
+h5>b{
+  color:white;
 }

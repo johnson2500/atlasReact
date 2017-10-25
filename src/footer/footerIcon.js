@@ -8,7 +8,6 @@ class FooterIcon extends Component {
   render() {
     return (
       <div className="footer-icon-container">
-        <img 2
       </div>
     );
   }

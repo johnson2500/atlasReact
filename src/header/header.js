@@ -5,12 +5,19 @@ class Header extends Component {
   constructor(){
     super();
   }
+  componentDidMount(){
+  }
+
   render() {
     return (
-      <div className="header-container">
-        <div className="header-left">
-          <h3>Atlas</h3>
-          <img src={ require(".././imgs/atlas.png") }></img>
+      <div className="conatiner header-container">
+        <div className='row'>
+          <div className="col-xs-2 text-center">
+            <h5><b>Atlas</b></h5>
+            <img src="" />
+          </div>
+          <input className="col-xs-8 header-search-bar" placeholder="Search"/>
+          <div className="col-xs-2 text-center" ></div>
         </div>
       </div>
     );
